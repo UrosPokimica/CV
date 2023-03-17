@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+<header>
+    <div class="head">
+        <table>
+            <thead>
+            <tr>
+                <th colspan="2"><h1 id="teil_1">Uros Pokimica</h1></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Adresse</td>
+                <td>Werner von Siemens Strasse 19/7,Steyr</td>
+            </tr>
+            <tr>
+                <td>Tel.</td>
+                <td>0677/61259688</td>
+            </tr>
+            <tr>
+                <td>E-Mail</td>
+                <td>uroskime@gmail.com</td>
+            </tr>
+            <tr>
+                <td>geb.</td>
+                <td>10.11.1990 in Serbien</td>
+            </tr>
+            </tbody>
+        </table>
+        <img src="myPicture.jpg" alt="my picture">
+    </div>
+    <div>
+        <nav>
+            <a href="#teil_1" class="fly">Startseite</a>
+            <a href="#Ausbildung" class="fly">Über mich</a>
+            <a href="#it" class="fly">Motivation in IT</a>
+            <a href="#cv" class="fly">Lebenslauf</a>
+            <a href="#kontakt" class="fly">Kontaktformular</a>
+            <a href="#projekte" class="fly">Projekte</a>
+        </nav>
+    </div>
+</header>
+<main>
+    <h2 id="Ausbildung">Über mich</h2>
+    <h4>Click on the pictures to see more..</h4>
+    <div class="überMich">
+        <div class="box">
+            <a href="https://www.carnivalcruiseline.de/"><img src="CCL.jpg" alt="ccl" style="height: 100%"></a>
+            <p class="ship">Ich bin eine sehr motivierte Person, die gern etwas Neues lernt. Deswegen bin ich im Jahr
+                2019
+                nach Litauen geflogen und habe ein Croupier Training gemacht. Dieser Job fand ich sehr interessant. Nach
+                dem
+                Training bin ich nach USA geflogen, wo ich auf einem Kreuzschiff als Croupier gearbeitet habe. Ich habe
+                sehr
+                viele Länder besucht und verschiedene Kulturen kennengelernt, was ich einer der größten Vorteile von
+                einem
+                Job auf dem Kreuzschiff fand. </p>
+        </div>
+        <div class="box">
+            <a href="https://vereine.oefb.at/SkVorwaertsSteyr/Mannschaften/Saison-2022-23/U16/Trainer-Betreuer"> <img
+                    src="Steyr.jpg" alt="steyr" style="height: 100%"></a>
+            <p class="fussball">Einer von meinen Hobbies ist Fußball. Ich bin derzeit Trainer für U12/U13 bei SK Enns
+                und
+                Hilfstrainer für U16 bei SK Vorwärts Steyr. Ich habe eine Ausbildung für Fußballtrainer in Wien gemacht,
+                wobei ich die Lizenz für Kindertrainer erworben habe.</p>
+        </div>
+        <div class="box">
+            <a href="https://www.patriots.com/"> <img src="NE.jpg" alt="new england" style="height: 100%"></a>
+            <p class="NewEngland">Mein zweites Hobby ist amerikanische Fußball und mein Lieblingsteam ist New England
+                Patriots. Go Patriots! Nach einer langen Woche, ist mir am liebsten am Sonntag ab 18 Uhr Spiele von
+                amerikanischem Fußball zu schauen. Dann bin ich am meistens entspannt und wie die Amerikaner sagen, "in
+                the
+                Zone".</p>
+        </div>
+    </div>
+    <div class="motivation1">
+        <section class="motivation2">
+            <h2 id="it">Motivation in IT</h2>
+            <p>Nach Beendigung des Gymnasiums habe ich angefangen Mathematik an der Universität Kragujevac, Serbien zu
+                studieren. Während meines Studiums habe ich erste Erfahrungen mit Programmieren sammeln können. Erste
+                Programmiersprache, die ich gelernt habe, war Pascal. Ich war Überrascht, dass Programmieren und
+                Mathematik ähnliche Logik nutzen.</p>
+            <p>
+                m Jahr 2015 bin ich nach Wien gekommen, um Mathematik an der Universität Wien weiterzustudieren. Da ich
+                mein mathematisches Wissen in der Praxis verwenden wollte, habe ich mich erinnert, dass mich schon
+                während des Studium Programmieren interessiert hat. Deswegen habe ich im Jahr 2019 ein Kurs für Java
+                angefangen.</p>
+            <p>
+                Dieses Kurs wurde online abgehalten und die Schwerpunkte lagen auf HTML, Java, MySQL, CSS und
+                JavaScript. Um mein Wissen noch mehr zu erweitern, habe ich im Jänner 2023 ein Kurs für
+                Softwareentwicklung bei Codersbay in Linz angefangen. Die Schwerpunkte liegen auf Webentwicklung,
+                SQL-Datenbanken und IT-Projektmanagement, wobei die verwendete Programmiersprachen Java, MySQL und HTML
+                sind.</p>
+        </section>
+    </div>
+    <h2 id="cv">Lebenslauf</h2>
+    <div class="cv">
+
+        <section>
+            <embed src="forProjekt.pdf">
+        </section>
+        <section id="thumb">
+            <h5>Click on the thumb to download the CV</h5>
+            <a href="forProjekt.pdf" download><img src="thumb.png" alt="thumb" width="10%" height="10%"></a>
+        </section>
+    </div>
+
+    <form class="check">
+
+        <div>
+            <h2 id="kontakt">Kontakt</h2>
+            Privat
+            <input type="checkbox" name="privat"
+                   id="privat" value="Privat" checked>
+            Firma
+            <input type="checkbox" name="firma" value="Firma"><br>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="Fname">Nachname:</label><br>
+            <input type="text" id="Fname" name="Fname"><br>
+            <label for="mail">E-mail</label><br>
+            <input type="email" id="mail" name="mail"><br>
+            <label for="freeform">Komentar</label><br>
+            <textarea id="freeform" name="komentar" rows="4" cols="20"></textarea><br>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+    <h2 id="projekte">Projekte (Java)</h2>
+    <div class="code-block">
+        <div class="projekte">
+            <h3>GaudiMitStatistikV2</h3>
+            <embed src="GaudiMitStatistikV2.java">
+        </div>
+        <div class="projekte">
+            <h3>MuenzeWerfenV3</h3>
+            <embed src="MuenzeWerfenV3.java">
+        </div>
+        <div class="projekte">
+            <h3>TaschenrechnerV3</h3>
+            <embed src="TaschenrechnerV3.java">
+        </div>
+    </div>
+
+</main>
+<footer>
+    <div>
+        <a href="#teil_1">Nach oben</a>
+    </div>
+</footer>
+</body>
+</html>
